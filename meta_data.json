@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "description": "Not for general use - comes with the Canvas Starter Template, and is used for some specific features within that template.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1607363024605x131275572756698540/canvas.png",
+    "license": "open_source",
+    "name": "Canvas Utilities"
+}

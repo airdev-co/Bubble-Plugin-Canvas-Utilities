@@ -1,0 +1,51 @@
+{
+    "category": "plugins",
+    "display": "Set WF Vars",
+    "fields": {
+        "AAD": {
+            "caption": "Email Template Type",
+            "doc": "Custom data type of the email template. This is the type that is returned",
+            "editor": "custom_type",
+            "name": "email_template_type",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Email Template",
+            "doc": "Do a search for the email template",
+            "editor": "DynamicValue",
+            "name": "email_template",
+            "rank": 1,
+            "value": "custom_data_AAD"
+        },
+        "AAF": {
+            "caption": "Website Data Type",
+            "doc": "Custom data type of the website. This is the type that is returned",
+            "editor": "custom_type",
+            "name": "website_data_type",
+            "rank": 2
+        },
+        "AAG": {
+            "caption": "Website",
+            "doc": "Do a search for the website record",
+            "editor": "DynamicValue",
+            "name": "website",
+            "rank": 3,
+            "value": "custom_data_AAF"
+        }
+    },
+    "return_value": {
+        "AAH": {
+            "caption": "Email Template",
+            "name": "email_template",
+            "rank": 0,
+            "value": "custom_data_AAD"
+        },
+        "AAI": {
+            "caption": "Website",
+            "name": "website",
+            "rank": 1,
+            "value": "custom_data_AAF"
+        }
+    },
+    "type": "server_side"
+}

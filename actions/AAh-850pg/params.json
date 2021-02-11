@@ -1,0 +1,13 @@
+{
+    "category": "plugins",
+    "display": "Set Input Tab Order",
+    "fields": {
+        "AAi": {
+            "caption": "Inputs must be visible on the page when this action is run in order for it to work. Running on page load should work for inputs shown on page load, but for popups it must be run after the popup is shown.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}

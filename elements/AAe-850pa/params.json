@@ -1,0 +1,29 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Canvas User Info",
+    "events": {
+        "AAg": {
+            "caption": "3rd party cookies blocked",
+            "name": "3rd_party_cookies_blocked"
+        }
+    },
+    "icon": "ion-information",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAf": {
+            "caption": "3rd party cookies blocked",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "3rd_party_cookies_blocked",
+            "value": "boolean"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "category": "plugins",
+    "display": "Check app location",
+    "fields": {
+        "AAK": {
+            "caption": "Base URL",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Location check code",
+            "doc": "asdf",
+            "editor": "DynamicValue",
+            "name": "code",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "Poll for response",
+            "default_val": true,
+            "doc": "If the response code is \"false\", check multiple times for the response, waiting up to 30 seconds before returning false.",
+            "editor": "DynamicValue",
+            "name": "poll_for_response",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAd": {
+            "caption": "Max time to poll for",
+            "default_val": 10,
+            "doc": "If \"Poll for response\" is Yes, then this is the maximum number of seconds to wait while checking a request.",
+            "editor": "DynamicValue",
+            "name": "max_poll_time",
+            "rank": 3,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAM": {
+            "caption": "error",
+            "name": "error",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Success",
+            "name": "success",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "responseCode",
+            "name": "responseCode",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "responseDump",
+            "name": "responseDump",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Valid",
+            "name": "valid",
+            "rank": 4,
+            "value": "boolean"
+        }
+    },
+    "type": "server_side"
+}

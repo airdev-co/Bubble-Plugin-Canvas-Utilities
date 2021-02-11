@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "Generate secure key",
+    "fields": {
+        "AAW": {
+            "caption": "Bytes (length)",
+            "default_val": 128,
+            "doc": "Number of bytes to use for key. Recommended to use a minimum of 64 bytes. More bytes = more secure.",
+            "editor": "DynamicValue",
+            "name": "bytes",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAV": {
+            "caption": "token",
+            "name": "token",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
