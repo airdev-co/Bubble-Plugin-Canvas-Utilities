@@ -7,6 +7,69 @@
             "editor": "Label",
             "name": "info",
             "rank": 0
+        },
+        "AAp": {
+            "caption": "Reset the tab order for the following types of HTML tags:",
+            "editor": "Label",
+            "name": "info2",
+            "rank": 1
+        },
+        "AAq": {
+            "caption": "Input",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "input",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAr": {
+            "caption": "Select",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "select",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAs": {
+            "caption": "Textarea",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "textarea",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAt": {
+            "caption": "Button",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "button",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAu": {
+            "caption": "Because this action doesn't work when something is not visible, you can delay the action slightly in order to let other Bubble actions run before this one.",
+            "editor": "Label",
+            "name": "delay_the_action",
+            "rank": 6
+        },
+        "AAv": {
+            "caption": "Delay?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "delay?",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "AAw": {
+            "caption": "How long to delay",
+            "default_val": 1,
+            "doc": "Number of seconds to delay by",
+            "editor": "DynamicValue",
+            "name": "how_long_to_delay",
+            "optional": true,
+            "options": "0.5 seconds, 1",
+            "rank": 8,
+            "value": "number"
         }
     },
     "type": "client_side"

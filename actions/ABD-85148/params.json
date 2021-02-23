@@ -1,0 +1,47 @@
+{
+    "category": "plugins",
+    "display": "Check app location (new)",
+    "fields": {
+        "AAz": {
+            "caption": "Base URL",
+            "default_val": "https://bubble-app-id.bubbleapps.io/version-test/api/1.1/meta",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAM": {
+            "caption": "error",
+            "name": "error",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Success",
+            "name": "success",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "responseCode",
+            "name": "responseCode",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "responseDump",
+            "name": "responseDump",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "App ID",
+            "name": "app_id",
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}
